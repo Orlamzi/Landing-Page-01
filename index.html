@@ -5,71 +5,215 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Looks by Rayo</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
   <header>
-      <button class="theme-btn" id="theme-btn">Dark Mode</button>
+    <button class="theme-btn" id="theme-btn">
+      <i class="fas fa-moon"></i>
+    </button>
     <h1>Looks by Rayo</h1>
-    <p>Beautiful Hairstyles, Every Time.</p>
-
+    <p class="tagline">Beautiful Hairstyles, Every Time.</p>
+    <div class="header-decoration">
+      <div class="sparkle sparkle-1">✨</div>
+      <div class="sparkle sparkle-2">✨</div>
+      <div class="sparkle sparkle-3">✨</div>
+    </div>
   </header>
 
   <main class="container">
     <section class="cta">
       <h2>Book Your Appointment Today</h2>
-      <p>Get the best hair styling experience in town. 
+      <p class="cta-description">Get the best hair styling experience in town. 
         Affordable, fast, and stylish.</p>
-      <button onclick="window.location.href='https://wa.me/238182434649">
-        Message on WhatsApp</button>
+      <div class="cta-buttons">
+        <button class="whatsapp-btn" onclick="window.location.href='https://wa.me/2348182434649'">
+          <i class="fab fa-whatsapp"></i>
+          Message on WhatsApp
+        </button>
+        <button class="call-btn" onclick="window.location.href='tel:+2348182434649'">
+          <i class="fas fa-phone"></i>
+          Call Now
+        </button>
+      </div>
     </section>
 
+    <section class="about">
+      <h2>Why Choose Looks by Rayo?</h2>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-star"></i>
+          <h3>Expert Stylists</h3>
+          <p>Professional hair stylists with years of experience</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-clock"></i>
+          <h3>Quick Service</h3>
+          <p>Fast and efficient styling without compromising quality</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-heart"></i>
+          <h3>Customer Satisfaction</h3>
+          <p>100% satisfaction guaranteed or your money back</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <h2>Our Services</h2>
+      <p class="services-intro">Transform your look with our professional hair styling services</p>
     <section class="services">
       <div class="service">
+        <div class="service-image">
+          <img src="makeover1.jpg" alt="Complete makeover transformation">
+        </div>
         <h3>Make Over</h3>
-        <img src="makeover1.jpg" alt="makeOver pic.">
+        <p>Complete hair transformation</p>
+        <div class="service-price">From ₦5,000</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="frontal.jpg" alt="Professional frontal installation">
+        </div>
         <h3>Frontal Installation</h3>
-        <img src="frontal.jpg" alt="Frontal pic.">
+        <p>Natural-looking frontal install</p>
+        <div class="service-price">From ₦8,000</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="360 install.jpg" alt="360 lace frontal installation">
+        </div>
         <h3>360 Install</h3>
-        <img src="360 install.jpg" alt="360 inst. pic.">
+        <p>Full 360 lace installation</p>
+        <div class="service-price">From ₦10,000</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="wig revamp.jpg" alt="Wig styling and revamping">
+        </div>
         <h3>Wig Revamping</h3>
-        <img src="wig revamp.jpg" alt="wig pic.">
+        <p>Restore your wig to perfection</p>
+        <div class="service-price">From ₦3,000</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="retouch.jpg" alt="Hair retouching service">
+        </div>
         <h3>Retouching</h3>
-        <img src="retouch.jpg" alt="retouch pic.">
+        <p>Perfect touch-ups for your style</p>
+        <div class="service-price">From ₦2,500</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="ghana weaving.jpg" alt="Traditional Ghana weaving">
+        </div>
         <h3>Ghana Weaving</h3>
-        <img src="ghana weaving.jpg" alt="ghana Weaving pic.">
+        <p>Beautiful traditional braiding</p>
+        <div class="service-price">From ₦4,000</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="styling braid.jpg" alt="Creative braid styling">
+        </div>
         <h3>Styling Braid</h3>
-        <img src="styling braid.jpg" alt="braid pic.">
+        <p>Creative and stylish braids</p>
+        <div class="service-price">From ₦3,500</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="piercing.jpg" alt="Professional ear piercing">
+        </div>
         <h3>Piercing</h3>
-        <img src="piercing.jpg" alt="piercing pic.">
+        <p>Safe and professional piercing</p>
+        <div class="service-price">From ₦1,500</div>
       </div>
       <div class="service">
+        <div class="service-image">
+          <img src="skin care.png" alt="Skincare treatment">
+        </div>
         <h3>Skin Care</h3>
-        <img src="skin care.png" alt="skin care pic.">
+        <p>Rejuvenating skin treatments</p>
+        <div class="service-price">From ₦2,000</div>
       </div>
-      
+    </section>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Amazing service! Rayo transformed my hair completely. I've never felt more confident!"</p>
+          <div class="client-name">- Sarah A.</div>
+        </div>
+        <div class="testimonial">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Professional, affordable, and the results are always perfect. Highly recommended!"</p>
+          <div class="client-name">- Grace O.</div>
+        </div>
+        <div class="testimonial">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Best hair stylist in town! The Ghana weaving was absolutely beautiful."</p>
+          <div class="client-name">- Blessing M.</div>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <span class="dot active" onclick="currentTestimonial(1)"></span>
+        <span class="dot" onclick="currentTestimonial(2)"></span>
+        <span class="dot" onclick="currentTestimonial(3)"></span>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <h2>Visit Our Salon</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Location</h3>
+          <p>Visit us for the best hair styling experience</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-clock"></i>
+          <h3>Working Hours</h3>
+          <p>Mon - Sat: 8:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <h3>Call Us</h3>
+          <p>+234 818 243 4649<br>+234 907 099 7256</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>Contact: +2348182434649 or +2349070997256 | Instagram: @looksbyrayo</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Looks by Rayo</h3>
+        <p>Beautiful Hairstyles, Every Time.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>+234 818 243 4649</p>
+        <p>+234 907 099 7256</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://instagram.com/looksbyrayo" target="_blank">
+            <i class="fab fa-instagram"></i> @looksbyrayo
+          </a>
+        </div>
+      </div>
+    </div>
     <p>&copy; 2025 Looks by Rayo</p>
   </footer>
 
+  <button class="scroll-to-top" id="scrollToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <script src="script.js"></script>
 </body>

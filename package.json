@@ -1,0 +1,16 @@
+{
+  "name": "looks-by-rayo",
+  "version": "1.0.0",
+  "description": "Beautiful Hairstyles Landing Page for Looks by Rayo",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build process needed for static site' && exit 0",
+    "start": "echo 'Static site - open index.html in browser'",
+    "dev": "echo 'Static site - open index.html in browser'"
+  },
+  "keywords": ["hair", "styling", "salon", "beauty"],
+  "author": "Looks by Rayo",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
