@@ -23,6 +23,20 @@ header {
   position: relative;
   overflow: hidden;
 }
+.power{
+  margin-top: 25px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: scrollLeft infinite 9s linear;
+}
+@keyframes scrollLeft {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
 .rayo-logo{
   width: 100px;
   height: 100px;
@@ -675,6 +689,10 @@ body.dark-mode .theme-btn:hover {
   .container {
     padding: 20px 15px;
   }
+
+  .power{
+    font-size: 15px;
+  }
   
   .cta {
     padding: 30px 20px;
@@ -697,5 +715,10 @@ body.dark-mode .theme-btn:hover {
     right: 20px;
     width: 45px;
     height: 45px;
+  }
+
+  .footer-section .social-links{
+  text-align: center;
+  margin-left: 140px;
   }
 }
